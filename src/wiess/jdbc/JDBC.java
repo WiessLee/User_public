@@ -2,7 +2,7 @@ package wiess.jdbc;
 import java.sql.*;
 public class JDBC {
 	private String driver="com.mysql.jdbc.Driver";
-	private String url="jdbc:mysql://192.168.111.128:3306/user";
+	private String url="jdbc:mysql://127.0.0.1:3306/user";
 	private String n="root";
 	private String p="root";
 	public void select(){
